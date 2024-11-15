@@ -3,17 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eksamen | Produkt</title>
+    <!--Ekstern css-fil for styling starter her-->
+    <link href="ikoner/css/fontawesome.css" rel="stylesheet" />
+    <link href="ikoner/css/brands.css" rel="stylesheet" />
+    <link href="ikoner/css/solid.css" rel="stylesheet" />
+    <link rel="stylesheet" href="CSS/style.css">
+    <!--Ekstern css-fil for styling slutter her--> 
+    <title>Eksamen | Produktside</title>
 </head>
 <body>
-    <header>
-
-    </header>
-    <main>
-
-    </main>
+    <div>
+        <header>
+            <nav>
+                <form>
+                    <label for="search">Søk</label>
+                    <input type="search" placeholder="Søk her" id="search">
+                    <input type="submit" value="søk">
+                    <i class="fa-solid fa-magnifying-glass" title="søk"></i>
+                </form>
+                <ul>
+                    <li><a href="#">Hjem</a></li>
+                    <li><a href="#">Produkt</a></li>
+                    <li><h1><a href="#">Logo</a></h1></li>
+                    <li><a href="#"></a>Kategori</li>
+                    <li><a href="#"></a>Kontakt oss</li>
+                    <li><i class="fa-regular fa-user" title="Profil"></i></li>
+                    <li><i class="fa-regular fa-heart" title="Favoritt"></i></li>
+                    <li><a href="#"><i class="fa-solid fa-cart-shopping" title="Handlevogn"></i></a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <nav>
+                <ul>
+                    <li><a href="#">Hjem</a></li>
+                    <li><i class="fa-solid fa-chevron-right" title="arrow right"></i></li>
+                    <li><a href="#">Kategori</a></li>
+                    <li><i class="fa-solid fa-chevron-right" title="arrow right"></i></li>
+                    <li><a href="#">Produktnavn</a></li>
+                </ul>
+            </nav>
+            <section class="grid-productcard">
+                <img src="img/Roller_skates.jpg" alt="roller skates">
+                <img src="img/Roller_skates.jpg" alt="roller skates">
+                <img src="img/Roller_skates.jpg" alt="roller skates">
+                <article>
+                    <img src="img/Roller_skates.jpg" alt="roller skates">
+                    <h2> Produktnavn</h2>
+                    <a href="#">MERKENAVN</a>
+                    <p>Pris: 4 199 kr ink. mva</p>
+                    <p> Farge: beige</p>
+                </article>
+            </section>
+            <aside>
+                <h3>Lignende produkter</h3>
+                <p><a href="#">Se flere lignende produkter <i class="fa-solid fa-arrow-right-long" title="arrow right"></i></a></p>
+                <p>Denne teksten må erstattes av en slider med produkter</p>
+            </aside>
+        </main>
+    </div>
     <footer>
-        
+        <section>
+            <h3>Logo</h3>
+            <p>Her kan jeg sette inn slagord eller info om virksomheten</p>
+        </section>
+        <section>
+            <h3>KONTAKT</h3>
+            <i class="fa-solid fa-location-dot" title="lokasjon"></i>
+            <p><strong>Adresse: </strong>BRA Veien 4, 1757 Halden</p>
+            <i class="fa-solid fa-phone" title="telefon"></i>
+            <p>Telefon: 69 60 80 00</p>
+            <i class="fa-solid fa-envelope" title="mail"></i>
+            <p>E-post: Halden@hiof.no</p>
+            <i class="fa-solid fa-clock" title="klokke"></i>
+            <p>Åpningstider: Stenger 15:00</p>
+        </section>
+        <section>
+            <h3>SNARVEIER</h3>
+            <p>Seksjon 3: Snarveier i form av navigasjonslenker</p>
+            <p>Produkter</p>
+            <p>Kategori</p>
+            <p>Kontakt oss</p>
+        </section>
+        <section>
+            <h3>SOSIALE MEDIER</h3>
+            <p>Sosiale medier - lenker til sosiale medier (Insta, Facebook, Linkedin, pinterest), lenkene kan peke til forsiden</p>
+            <i class="fa-brands fa-instagram" title="instagram"></i>
+            <i class="fa-brands fa-facebook" title="facebook"></i>
+            <i class="fa-brands fa-linkedin" title="linkedin"></i>
+            <i class="fa-brands fa-pinterest" title="pinterest"></i>
+        </section>
     </footer>
 </body>
 </html>
