@@ -3,17 +3,160 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Ekstern css-fil for styling starter her-->
+    <link href="ikoner/css/fontawesome.css" rel="stylesheet" />
+    <link href="ikoner/css/brands.css" rel="stylesheet" />
+    <link href="ikoner/css/solid.css" rel="stylesheet" />
+    <link rel="stylesheet" href="CSS/style.css">
+    <!--Ekstern css-fil for styling slutter her--> 
     <title>Eksamen | Kasse</title>
 </head>
 <body>
-    <header>
-
-    </header>
-    <main>
-
-    </main>
-    <footer>
-        
-    </footer>
+    <div>
+        <header>
+            <nav>
+                <form>
+                    <label for="search">Søk</label>
+                    <input type="search" placeholder="Søk her" id="search">
+                    <input type="submit" value="søk">
+                    <i class="fa-solid fa-magnifying-glass" title="søk"></i>
+                </form>
+                <ul>
+                    <li><a href="#">Hjem</a></li>
+                    <li><a href="#">Produkt</a></li>
+                    <li><h1><a href="#">Logo</a></h1></li>
+                    <li><a href="#"></a>Kategori</li>
+                    <li><a href="#"></a>Kontakt oss</li>
+                    <li><i class="fa-regular fa-user" title="Profil"></i></li>
+                    <li><i class="fa-regular fa-heart" title="Favoritt"></i></li>
+                    <li><a href="#"><i class="fa-solid fa-cart-shopping" title="Handlevogn"></i></a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <nav>
+                <ul>
+                    <li><a href="#">Fortsett å handle</a></li>
+                </ul>
+            </nav>
+            <h2>Kasse</h2>
+            <section>
+                <h2>1. SHOPPINGBAGEN DIN</h2>
+                <article>
+                    <img src="img/Roller_skates.jpg" alt="roller skates">
+                    <h2> Produktnavn</h2>
+                    <p>Pris: 4 199 kr</p>
+                    <p> Farge: beige</p>
+                </article>
+            </section>
+            <section>
+                <h2>2. DINE OPPLYSNINGER</h2>
+                <h3>Leveringsadresse</h3>
+                <form>
+                    <Label>
+                        Fornavn
+                        <input type="text" pattern="[A-Za-zæøåÆØÅ ]{2,}" required placeholder="Fornavn*">
+                    </Label>
+                    <Label>
+                        Etternavn
+                        <input type="text" pattern="[A-Za-zæøåÆØÅ ]{2,}" required placeholder="Etternavn*">
+                    </Label>
+                    <Label>
+                        Gateadresse
+                        <input type="text" pattern="[A-Za-zæøåÆØÅ ]{2,}" required placeholder="Gateadresse*">
+                    </Label>
+                    <Label>
+                        Postnummer
+                        <input type="number"  required placeholder="Postnummer*">
+                    </Label>
+                    <Label>
+                        Poststed
+                        <input type="text" pattern="[A-Za-zæøåÆØÅ ]{2,}" required placeholder="Poststed*">
+                    </Label>
+                </form>
+                <h3>Kontaktinformasjon</h3>
+                <form>
+                    <label>
+                        E-post
+                        <input type="email" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" required placeholder="eksempel@hiof.no*">
+                    </label>
+                    <label>
+                        Telefon
+                        <input type="tel" pattern="[0-9]{8,12}" required placeholder="+4741***482*"> 
+                    </label>
+                    <input type="submit" value="Lagre">
+                </form>
+                <a href="#">Avbryt</a>
+            </section>
+            <section>
+                <h2>3. LEVERING</h2>
+                <h3>LEVERINGSVALG</h3>
+                <form>
+                    <fieldset>
+                        <label>
+                            Ekxpress Hjemlevering
+                            <input type="radio" name="delivery" value="express home">
+                        </label>
+                        <label>
+                            Ekxpress Pakke til utleveringssted
+                            <input type="radio" name="delivery" value="express drop-off point">
+                        </label>
+                        <label>
+                            Standard Hjemlevering
+                            <input type="radio" name="delivery" value="standard home">
+                        </label>
+                    </fieldset>
+                </form>
+            </section>
+            <section>
+                <h2>4. Betaling</h2>
+                <h3>BETAL MED KORT</h3>
+                <form>
+                    <label>
+                        Kortnummer
+                        <input type="number" required placeholder="123456*****88999">
+                    </label>
+                    <label>
+                        Utløpsdato
+                        <input type="date" max="31-12-24" required>
+                    </label>
+                    <label>
+                        CVC/CVV
+                        <input type="">
+                    </label>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <section>
+                <h3>Logo</h3>
+                <p>Her kan jeg sette inn slagord eller info om virksomheten</p>
+            </section>
+            <section>
+                <h3>KONTAKT</h3>
+                <ul>
+                    <li><i class="fa-solid fa-location-dot" title="lokasjon"> <strong>Adresse: </strong>BRA Veien 4, 1757 Halden</i></li>
+                    <li><i class="fa-solid fa-phone" title="telefon"> Telefon: 69 60 80 00</i></li>
+                    <li><i class="fa-solid fa-envelope" title="mail"> E-post: Halden@hiof.no</i></li>
+                    <li><i class="fa-solid fa-clock" title="klokke"> Åpningstider: Stenger 15:00</i></li>
+                </ul>
+            </section>
+            <section>
+                <h3>SNARVEIER</h3>
+                <p>Seksjon 3: Snarveier i form av navigasjonslenker</p>
+                <p>Produkter</p>
+                <p>Kategori</p>
+                <p>Kontakt oss</p>
+            </section>
+            <section>
+                <h3>SOSIALE MEDIER</h3>
+                <p>Sosiale medier - lenker til sosiale medier (Insta, Facebook, Linkedin, pinterest), lenkene kan peke til forsiden</p>
+                <i class="fa-brands fa-instagram" title="instagram"></i>
+                <i class="fa-brands fa-facebook" title="facebook"></i>
+                <i class="fa-brands fa-linkedin" title="linkedin"></i>
+                <i class="fa-brands fa-pinterest" title="pinterest"></i>
+            </section>
+        </footer>
+    </div>
 </body>
 </html>
