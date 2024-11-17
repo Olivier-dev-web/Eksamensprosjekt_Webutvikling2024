@@ -1,47 +1,109 @@
 
-body{{
+body{
     font-family: Arial, Helvetica, sans-serif;
-}}
-
-.test{
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    border: black;
-    cursor: pointer;
-
-
+    box-sizing: border-box;
+    margin: 0;
 }
 
-.button {
-    border: 2px solid black;
-    border-radius: 25px;
-    color: rgb(0, 0, 0);
-    padding: 15px 32px;
-    text-align: center;
+/*Setter grid
+#grid-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+}*/
+
+#global-header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 2rem;
+    font-size: 20px;
+}
+
+/*Listestyling, klassen fjerner punktene, evt understrek og gir svart tekst*/
+.list-style{
+    list-style: none;
     text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-
+    color: black;
+    padding: 25rem;
 }
 
-.button1 {background-color: #ffffff;
+/*Stilsetter a-tagene på elementer som har klassen .list-style*/
+.list-style a{
+    text-decoration: none;
+    color: black;
 }
 
-.border_top{
-    border-top: 2px solid black;
-
+.listitem-center{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
 }
 
-.review_cards{
-    border: 2px solid rgba(229, 229, 229, 0.898);
+/*Sentrerer listitem i senter*/
+.nav-text-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
 }
 
-.bi{
-    background-image: url(https://picsum.photos/id/237/200/300);
+.space-between{
+    padding: 0.5rem;
+}
+
+#banner{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    text-align: right;
+    background-color: antiquewhite;
+    /*background-image: url(https://picsum.photos/id/376/200/300);*/
+    border-radius: 15px;
     background-size: cover;
-    /*backdrop-filter: ;*/
+    height: 500px;
+    padding-right: 3rem;
+    padding-left: 8rem;
+    padding-top: 3rem;
+    
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+
+
+  img{
+    width: 150px;
+}

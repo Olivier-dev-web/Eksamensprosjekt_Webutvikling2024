@@ -12,21 +12,22 @@
     <title>Eksamen | Forside</title>
 </head>
 <body>
-    <div>
-        <header>
-            <nav>
+    <div id="grid-container">
+        <header id="global-header">
+            <nav class="flex-nav">
                 <form>
-                    <label for="search">Søk</label>
+                    <label for="search" class="visuallyhidden">Søk</label>
                     <input type="search" placeholder="Søk her" id="search">
-                    <input type="submit" value="søk">
-                    <i class="fa-solid fa-magnifying-glass" title="søk"></i>
+                    <button type="submit"><i class="fa-solid fa-magnifying-glass" title="søk"></i></button>
                 </form>
-                <ul>
-                    <li><a href="#">Hjem</a></li>
-                    <li><a href="#">Produkt</a></li>
-                    <li><h1><a href="#">Logo</a></h1></li>
-                    <li><a href="#"></a>Kategori</li>
-                    <li><a href="#"></a>Kontakt oss</li>
+                <ul class="list-style nav-text-center">
+                    <li class="space-between"><a href="#">Hjem</a></li>
+                    <li class="space-between"><a href="#">Produkt</a></li>
+                    <li class="space-between"><h1><a href="#">Logo</a></h1></li>
+                    <li class="space-between"><a href="#"></a>Kategori</li>
+                    <li class="space-between"><a href="#"></a>Kontakt oss</li>
+                </ul>
+                <ul class="list-style listitem-center">
                     <li><i class="fa-regular fa-user" title="Profil"></i></li>
                     <li><i class="fa-regular fa-heart" title="Favoritt"></i></li>
                     <li><a href="#"><i class="fa-solid fa-cart-shopping" title="Handlevogn"></i></a></li>
@@ -35,8 +36,8 @@
         </header>
         <main>
             <section id="banner">
-                <h3>Dette er en overskrift</h3>
-                <p>Dette er ingressen</p>
+                <h2>Phasellus vehicula ligula non eros porta lacinia. Nam condimentum et sem iaculis facilisis. In sagittis porttitor enim, quis lacinia lorem rutrum nec.</h2>
+                <p>Sed quis erat magna. Vivamus finibus volutpat lectus, sed laoreet est finibus at.</p>
                 <a href="#">Les mer</a>
             </section>
             <section>
@@ -93,7 +94,7 @@
             <section>
                 <h3>KONTAKT</h3>
                 <ul>
-                    <li><i class="fa-solid fa-location-dot" title="lokasjon"> <strong>Adresse: </strong>BRA Veien 4, 1757 Halden</i></li>
+                    <li><i class="fa-solid fa-location-dot" title="lokasjon"> <strong>Adresse: </strong>B R A Veien 4, 1757 Halden</i></li>
                     <li><i class="fa-solid fa-phone" title="telefon"> Telefon: 69 60 80 00</i></li>
                     <li><i class="fa-solid fa-envelope" title="mail"> E-post: Halden@hiof.no</i></li>
                     <li><i class="fa-solid fa-clock" title="klokke"> Åpningstider: Stenger 15:00</i></li>
