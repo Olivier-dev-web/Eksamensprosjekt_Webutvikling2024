@@ -132,6 +132,11 @@ header, nav, main, footer{
     color: black;
 }
 
+.product-card {
+    padding: 16px;
+    text-align: center;
+    position: relative;
+}
 
 .name-price{
     display: flex;
@@ -140,12 +145,13 @@ header, nav, main, footer{
     margin: 10px 0;
 
     a{
+        font-weight: bold;
         text-decoration: none;
         color: black;
     }
 }
 
-.rating{
+.review{
     display: flex;
 }
 
@@ -153,14 +159,7 @@ header, nav, main, footer{
 /*BARE TIL EKSEMPEL!!!!*/
 
 
-.product-card {
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    padding: 16px;
-    max-width: 300px;
-    text-align: center;
-    position: relative;
-}
+
 img {
     max-width: 100%;
     border-radius: 8px;
@@ -171,32 +170,6 @@ img {
     align-items: center;
     margin: 10px 0;
 }
-
-}
-p.reviews {
-    font-size: 0.9em;
-    color: #555;
-}
-#pop-items article .fa-heart {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    font-size: 1.5em;
-    color: #ff0000;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-}
-
-#pop-items article a{
-    text-decoration: none;
-    font-weight: bold;
-    color: black;
-}
-
-
-
-
 
 
 /*Her kommer stilsettingen til seksjonen "Våre mest populære kategorier*/
