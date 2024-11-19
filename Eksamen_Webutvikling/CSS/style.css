@@ -169,12 +169,45 @@ img {
 
 .cat-tile{
     display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 5rem;
-    background-color: aqua;
-    border-radius: 25px;
-    border: 2px solid black;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+
+    h2, p{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.category{
+    display: flex;
+    border: 1px solid black;
+    padding: 5rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    margin: 0.5rem;
+}
+
+.category_3{
+    display: flex;
+    border: 1px solid black;
+    padding: 5rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+    margin: 0.5rem;
+}
+
+
+
+/*Her kommer stilsetting for anmeldelser seksjonen*/
+
+
+.reviews{
+    display: flex;
+    border: 1px solid black;
+    padding: 1rem;
 }
 
 
