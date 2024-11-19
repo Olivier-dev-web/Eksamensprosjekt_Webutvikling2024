@@ -4,125 +4,126 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Ekstern css-fil for styling starter her-->
-    <link href="ikoner/css/fontawesome.css" rel="stylesheet" />
-    <link href="ikoner/css/brands.css" rel="stylesheet" />
-    <link href="ikoner/css/solid.css" rel="stylesheet" />
-    <link href="ikoner/css/regular.css" rel="stylesheet" />
+    <link href="ikoner/css/fontawesome.css" rel="stylesheet">
+    <link href="ikoner/css/brands.css" rel="stylesheet">
+    <link href="ikoner/css/solid.css" rel="stylesheet">
+    <link href="ikoner/css/regular.css" rel="stylesheet">
     <link rel="stylesheet" href="ikoner/css/">
     <link rel="stylesheet" href="CSS/style.css">
     <!--Ekstern css-fil for styling slutter her--> 
     <title>Eksamen | Forside</title>
 </head>
 <body>
-    <div id="grid-container">
-        <header id="global-header">
-            <nav class="flex-nav">
-                <form>
-                    <label for="search" class="visuallyhidden">Søk</label>
-                    <input type="search" placeholder="Søk her" id="search">
-                    <button type="submit"><i class="fa-solid fa-magnifying-glass" title="søk"></i></button>
-                </form>
-                <ul class="list-style nav-text-center">
-                    <li class="space-between"><a href="#">Hjem</a></li>
-                    <li class="space-between"><a href="#">Produkt</a></li>
-                    <li class="space-between"><h1><a href="#">Logo</a></h1></li>
-                    <li class="space-between"><a href="#"></a>Kategori</li>
-                    <li class="space-between"><a href="#"></a>Kontakt oss</li>
-                </ul>
-                <ul class="list-style listitem-center">
-                    <li><i class="fa-regular fa-user" title="Profil"></i></li>
-                    <li><i class="fa-regular fa-heart" title="Favoritt"></i></li>
-                    <li><a href="#"><i class="fa-solid fa-cart-shopping" title="Handlevogn"></i></a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <section id="banner">
-                <h2>Phasellus vehicula ligula non eros porta lacinia. Sed quis erat magna.</h2>
-                <p>Vivamus finibus volutpat lectus, sed laoreet est finibus at. Nam condimentum et sem iaculis facilisis. In sagittis porttitor enim, quis lacinia lorem rutrum nec.</p>
-                <a href="#">Les mer</a>
-            </section>
-            <section id="pop-items">
-                <h2>Våre mest populære produkter</h2>
-                <p>Oppdag det beste av det beste</p>
+    <header id="global-header">
+        <nav class="flex-nav">
+            <form>
+                <label for="search" class="visuallyhidden">Søk</label>
+                <input type="search" placeholder="Søk her" id="search">
+                <button type="submit"><i class="fa-solid fa-magnifying-glass" title="søk"></i></button>
+            </form>
+            <ul class="list-style nav-text-center">
+                <li class="space-between"><a href="#">Hjem</a></li>
+                <li class="space-between"><a href="#">Produkt</a></li>
+                <li class="space-between"><h1><a href="#">Logo</a></h1></li>
+                <li class="space-between"><a href="#"></a>Kategori</li>
+                <li class="space-between"><a href="#"></a>Kontakt oss</li>
+            </ul>
+            <ul class="list-style listitem-center">
+                <li><i class="fa-regular fa-user" title="Profil"></i></li>
+                <li><i class="fa-regular fa-heart" title="Favoritt"></i></li>
+                <li><a href="#"><i class="fa-solid fa-cart-shopping" title="Handlevogn"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="banner">
+            <h2>Phasellus vehicula ligula non eros porta lacinia. Sed quis erat magna.</h2>
+            <p>Vivamus finibus volutpat lectus, sed laoreet est finibus at. Nam condimentum et sem iaculis facilisis. In sagittis porttitor enim, quis lacinia lorem rutrum nec.</p>
+            <a href="#">Les mer</a>
+        </section>
+        <section id="pop-items">
+            <h2>Våre mest populære produkter</h2>
+            <p>Oppdag det beste av det beste</p>
+            <span class="flt">
                 <a href="#" lang="en" class="fltr-btn">New Product</a>
                 <a href="#" lang="en" class="fltr-btn">Special Price</a>
                 <a href="#" lang="en" class="fltr-btn">Best Sellers</a>
-                <!-- Definerer hvert produkt som en artikkel -->
-                <article class="product-card">
-                    <img src="img/travel.png" alt="travelling">
-                    <div>
-                        <!-- Produktnavn som lenke -->
-                        <a href="#"><h3>Produktnavn</h3></a>
-                        <!-- Pris på produktet -->
-                        <p>Pris: 1299 kr</p>
-                    </div>
+            </span>
+            <article class="product-card">
+                <img src="img/travel.png" alt="Produktbilde">
+                <i class="fa-regular fa-heart" title="Favoritt"></i>
+                <span class="name-price">
+                    <!-- Produktnavn som lenke -->
+                    <a href="#">Produktnavn</a>
+                    kr 199,99
+                </span>
+                <span>
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-regular fa-star-half-stroke"></i>
                     <i class="fa-regular fa-star"></i>
-                    <p>1,4k reviews</p>
-                </article>
-            </section>
-            <section>
-                <h2>Våre mest populære kategorier</h2>
-                <p>Dette er ingressen: Oppdag det beste av det beste</p>
-                <article class="cat-tile">
-                    <h3>Kategori 1</h3>
-                </article>
-                <article class="bi">
-                    <h3>Kategori 2</h3>
-                </article>
-                <article>
-                    <h3>Kategori 3</h3>
-                </article>
-                <article>
-                    <h3>Kategori 4</h3>
-                </article>
-                <article>
-                    <h3>Kategori 5</h3>
-                </article>
-            </section>
-            <section>
-                <h2>Anmeldelser</h2>
-                <article class="review_cards">
-                    <h3>Navn på personen</h3>
-                    <img src="img/review.png" alt="review">
-                    <p>Tekstparagraf på det personen mener om produktene</p>
-                </article>
-            </section>
-        </main>
-        <footer>
-            <section>
-                <h3>Logo</h3>
-                <p>Her kan jeg sette inn slagord eller info om virksomheten</p>
-            </section>
-            <section>
-                <h3>KONTAKT</h3>
-                <ul>
-                    <li><i class="fa-solid fa-location-dot" title="lokasjon"> <strong>Adresse: </strong>B R A Veien 4, 1757 Halden</i></li>
-                    <li><i class="fa-solid fa-phone" title="telefon"> Telefon: 69 60 80 00</i></li>
-                    <li><i class="fa-solid fa-envelope" title="mail"> E-post: Halden@hiof.no</i></li>
-                    <li><i class="fa-solid fa-clock" title="klokke"> Åpningstider: Stenger 15:00</i></li>
-                </ul>
-            </section>
-            <section>
-                <h3>SNARVEIER</h3>
-                <p>Seksjon 3: Snarveier i form av navigasjonslenker</p>
-                <p>Produkter</p>
-                <p>Kategori</p>
-                <p>Kontakt oss</p>
-            </section>
-            <section>
-                <h3>SOSIALE MEDIER</h3>
-                <p>Sosiale medier - lenker til sosiale medier (Insta, Facebook, Linkedin, pinterest), lenkene kan peke til forsiden</p>
-                <i class="fa-brands fa-instagram" title="instagram"></i>
-                <i class="fa-brands fa-facebook" title="facebook"></i>
-                <i class="fa-brands fa-linkedin" title="linkedin"></i>
-                <i class="fa-brands fa-pinterest" title="pinterest"></i>
-            </section>
-        </footer>
-    </div>
+                    (1,4k anmeldelser)
+                </span>
+            </article>
+        </section>
+        <section>
+            <h2>Våre mest populære kategorier</h2>
+            <p>Dette er ingressen: Oppdag det beste av det beste</p>
+            <article class="cat-tile">
+                <h3>Kategori 1</h3>
+            </article>
+            <article class="bi">
+                <h3>Kategori 2</h3>
+            </article>
+            <article>
+                <h3>Kategori 3</h3>
+            </article>
+            <article>
+                <h3>Kategori 4</h3>
+            </article>
+            <article>
+                <h3>Kategori 5</h3>
+            </article>
+        </section>
+        <section>
+            <h2>Anmeldelser</h2>
+            <article class="review_cards">
+                <h3>Navn på personen</h3>
+                <img src="img/review.png" alt="review">
+                <p>Tekstparagraf på det personen mener om produktene</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <h3>Logo</h3>
+            <p>Her kan jeg sette inn slagord eller info om virksomheten</p>
+        </section>
+        <section>
+            <h3>KONTAKT</h3>
+            <ul>
+                <li><span><i class="fa-solid fa-location-dot" title="lokasjon"> <strong>Adresse: </strong>B R A Veien 4, 1757 Halden</i></span></li>
+                <li><i class="fa-solid fa-phone" title="telefon"> Telefon: 69 60 80 00</i></li>
+                <li><i class="fa-solid fa-envelope" title="mail"> E-post: Halden@hiof.no</i></li>
+                <li><i class="fa-solid fa-clock" title="klokke"> Åpningstider: Stenger 15:00</i></li>
+            </ul>
+        </section>
+        <section>
+            <h3>SNARVEIER</h3>
+            <p>Seksjon 3: Snarveier i form av navigasjonslenker</p>
+            <p>Produkter</p>
+            <p>Kategori</p>
+            <p>Kontakt oss</p>
+        </section>
+        <section>
+            <h3>SOSIALE MEDIER</h3>
+            <p>Sosiale medier - lenker til sosiale medier (Insta, Facebook, Linkedin, pinterest), lenkene kan peke til forsiden</p>
+            <i class="fa-brands fa-instagram" title="instagram"></i>
+            <i class="fa-brands fa-facebook" title="facebook"></i>
+            <i class="fa-brands fa-linkedin" title="linkedin"></i>
+            <i class="fa-brands fa-pinterest" title="pinterest"></i>
+        </section>
+    </footer>
 </body>
 </html>
