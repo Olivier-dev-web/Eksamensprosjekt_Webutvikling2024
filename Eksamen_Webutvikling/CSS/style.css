@@ -294,6 +294,84 @@ footer{
     width: 1px;
 }
 
+/*--------------------------------------------------------------------*/
+
+/*Her kommer stilsetting av produktsiden*/
+
+/*stilsetter brødsmulenavigasjonen*/
+
+#breadcrumbs{
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    font-size: 1.3rem;
+    
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
+}
+
+#breadcrumbs a:hover{
+    color: rgb(0, 87, 149);
+}
+
+#breadcrumbs li:last-child a{
+    font-weight: bold;
+}
+
+/*Må ha overskrift for område med produktinformasjon og bilde overskriften har fått
+klassen hidden + ps-abs for å ikke synes eller gi margin*/
+.pos-abs{
+    position: absolute;
+}
+.tester-prdukt{
+    display: flex;
+    border: 1px solid black;
+    flex-wrap: wrap;
+}
+
+#grid-product-img{
+    display: grid;
+    grid-template-columns: 160px 460;
+    grid-template-rows: auto auto;
+
+    .bilde1{
+        grid-column: 1/2;
+        grid-row: 1/2;
+        width: 150px;
+    }
+
+    .bilde2{
+        grid-column: 1/2;
+        grid-row: 2/3;
+        width: 150px;
+    }
+
+    .bilde3{
+        grid-column: 1/2;
+        grid-row: 3/4;
+        width: 150px;
+    }
+
+    .bilde4{
+        grid-column: 2/3;
+        grid-row: 1/4;
+        width: 450px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
