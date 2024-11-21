@@ -330,40 +330,61 @@ klassen hidden + ps-abs for å ikke synes eller gi margin*/
     display: flex;
     border: 1px solid black;
     flex-wrap: wrap;
+    padding: 1rem;
 }
 
 #grid-product-img{
     display: grid;
-    grid-template-columns: 160px 460;
+    grid-template-columns: 12rem 36rem;
     grid-template-rows: auto auto;
 
     .bilde1{
         grid-column: 1/2;
         grid-row: 1/2;
-        width: 150px;
+        width: 100%;
+        border-radius: 0px;
     }
 
     .bilde2{
         grid-column: 1/2;
         grid-row: 2/3;
-        width: 150px;
+        width: 100%;
+        border-radius: 0px;
     }
 
     .bilde3{
         grid-column: 1/2;
         grid-row: 3/4;
-        width: 150px;
+        width: 100%;
+        border-radius: 0px;
     }
 
     .bilde4{
         grid-column: 2/3;
         grid-row: 1/4;
-        width: 450px;
+        width: 100%;
+        border-radius: 0px;
     }
 }
 
+#product-info{
+    margin: 1rem;
+}
 
+.details-sum{
+    width: 300px;
+    border-top: 2px solid black;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
 
+    summary{
+        gap: 7rem;
+        display: flex;
+    }
+}
+
+.summary
 
 
 
