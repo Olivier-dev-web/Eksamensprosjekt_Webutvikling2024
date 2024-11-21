@@ -17,7 +17,7 @@
     <header id="global-header">
         <nav class="flex-nav">
             <form>
-                <label for="search" class="visuallyhidden">Søk</label>
+                <label for="search" class="hidden">Søk</label>
                 <input type="search" placeholder="Søk her" id="search">
                 <button type="submit"><i class="fa-solid fa-magnifying-glass" title="søk"></i></button>
             </form>
@@ -100,39 +100,99 @@
                         </article>
                     </div>
                   </details>
+                  <form>
+                    <label>
+                        Velg størrelse
+                        <select name="size" id="">
+                            <option value="">Velg størrelse</option>
+                            <option value="XS">XS</option>
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                            <option value="XL">XL</option>
+                        </select>
+                    </label>
+                    <label>
+                        Legg i handlekurv
+                        <input type="button"  value="Legg i handlekurv">
+                    </label>
+                    <label>
+                        Favoritt
+                        <input type="radio" name="delivery" value="standard home">
+                    </label>
+                </form>
             </article>
-            <form>
-                <label>
-                    Velg størrelse
-                    <select name="size" id="">
-                        <option value="">Velg størrelse</option>
-                        <option value="XS">XS</option>
-                        <option value="S">S</option>
-                        <option value="M">M</option>
-                        <option value="L">L</option>
-                        <option value="XL">XL</option>
-                    </select>
-                </label>
-                <label>
-                    Legg i handlekurv
-                    <input type="submit"  value="Legg i handlekurv">
-                </label>
-                <label>
-                    Favoritt
-                    <input type="radio" name="delivery" value="standard home">
-                </label>
-            </form>
         </section>
         <aside>
             <h3>Lignende produkter</h3>
             <p><a href="#">Se flere lignende produkter <i class="fa-solid fa-arrow-right-long" title="arrow right"></i></a></p>
-            <article class="product-card">
-                <img src="img/travel.png" alt="travelling">
-                <!-- Produktbilde med alternativ tekst -->
-                <h4>Produktnavn</h4>
-                <p>Pris: 1299 kr</p>
-                <!-- Pris på produktet -->
-            </article>
+            <div class="scroll">
+                <article class="product-card">
+                    <h3 class="hidden">Produktkort</h3>
+                    <img src="img/travel.png" alt="Produktbilde">
+                    <p class="name-price"><a href="#">Produktnavn</a>  kr 299,99</p>
+                    <p>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        (1,4k anmeldelser)
+                    </p>
+                </article>
+                <article class="product-card">
+                    <h3 class="hidden">Produktkort</h3>
+                    <img src="img/travel.png" alt="Produktbilde">
+                    <p class="name-price"><a href="#">Produktnavn</a>  kr 299,99</p>
+                    <p>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        (1,4k anmeldelser)
+                    </p>
+                </article>
+                <article class="product-card">
+                    <h3 class="hidden">Produktkort</h3>
+                    <img src="img/travel.png" alt="Produktbilde">
+                    <p class="name-price"><a href="#">Produktnavn</a>  kr 299,99</p>
+                    <p>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        (1,4k anmeldelser)
+                    </p>
+                </article>
+                <article class="product-card">
+                    <h3 class="hidden">Produktkort</h3>
+                    <img src="img/travel.png" alt="Produktbilde">
+                    <p class="name-price"><a href="#">Produktnavn</a>  kr 299,99</p>
+                    <p>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        (1,4k anmeldelser)
+                    </p>
+                </article>
+                <article class="product-card">
+                    <h3 class="hidden">Produktkort</h3>
+                    <img src="img/travel.png" alt="Produktbilde">
+                    <p class="name-price"><a href="#">Produktnavn</a>  kr 299,99</p>
+                    <p>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        (1,4k anmeldelser)
+                    </p>
+                </article>
+            </div>
         </aside>
     </main>
     <footer>
