@@ -46,7 +46,7 @@
             </ul>
         </nav>
         <section class="tester-prdukt">
-            <h2 class="hidden pos-abs">Produktinfo</h2>
+            <h2 class="hidden">Produktinfo</h2>
             <div id="grid-product-img">
                 <img src="img/Roller_skates.jpg" alt="bilde 1" class="bilde1">
                 <img src="img/Roller_skates.jpg" alt="bilde 2" class="bilde2">
@@ -100,25 +100,19 @@
                         </div>
                       </details>
                       <form>
-                        <label>
-                            Velg størrelse
-                            <select name="size" id="">
-                                <option value="">Velg størrelse</option>
+                        <label for="størrelse" class="hidden">Velg størrelse</label>
+                        <select id="storrelse" name="størrelser">
+                            <option value="">Velg størrelse</option>
                                 <option value="XS">XS</option>
                                 <option value="S">S</option>
                                 <option value="M">M</option>
                                 <option value="L">L</option>
                                 <option value="XL">XL</option>
-                            </select>
-                        </label>
-                        <label>
-                            Legg i handlekurv
-                            <input type="button"  value="Legg i handlekurv">
-                        </label>
-                        <label>
-                            Favoritt
-                            <input type="radio" name="delivery" value="standard home">
-                        </label>
+                        </select>
+                        <label for="legg i handlekurv" class="hidden">Handlekurv</label>
+                        <input type="submit" id="legg i handlekurv" name="legg i handlekurv" value="Legg i handlekurv">
+                        <label for="favoritt" class="hidden">Favoritt</label>
+                        <input type="checkbox" id="favoritt" name="favoritt" value="Hjerte ikon/emoji">
                     </form>
                 </article>
             </div>
