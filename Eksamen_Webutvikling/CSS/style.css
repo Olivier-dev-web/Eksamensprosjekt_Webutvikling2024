@@ -329,8 +329,8 @@ klassen hidden + ps-abs for å ikke synes eller gi margin*/
 
 #grid-product-img{
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    grid-template-rows: auto auto auto;
+    grid-template-columns: 1fr 3fr ;
+    grid-template-rows: auto auto ;
 
     .bilde1{
         grid-column: 1/2;
