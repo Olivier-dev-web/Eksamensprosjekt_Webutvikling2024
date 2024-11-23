@@ -148,8 +148,6 @@ body{
 
 
 
-}
-
 .name-price{
     display: flex;
     justify-content: space-between;
@@ -331,8 +329,8 @@ klassen hidden + ps-abs for å ikke synes eller gi margin*/
 
 #grid-product-img{
     display: grid;
-    grid-template-columns: 1fr 3fr;
-    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: auto auto auto;
 
     .bilde1{
         grid-column: 1/2;
@@ -361,11 +359,14 @@ klassen hidden + ps-abs for å ikke synes eller gi margin*/
         width: 100%;
         border-radius: 0px;
     }
+
+    #product-info{
+        grid-column: 1/3;
+        grid-row: 4/5;
+    }
 }
 
-#product-info{
-    margin: 1rem;
-}
+
 
 .details-sum{
     width: 300px;
@@ -452,3 +453,5 @@ aside .scroll .product-card{
 
 }
  */
+
+ 
