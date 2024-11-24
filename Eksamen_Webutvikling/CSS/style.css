@@ -260,27 +260,48 @@ img {
 
 footer{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 3fr 1fr;
     grid-template-rows: auto auto;
     border-top: 1px solid black;
     margin: 1rem;
+    font-size: 0.8rem;
 
-    .one{
+    .logo{
         grid-column: 1/3;
         grid-row: 1/2;
     }
 
-    .two{
+    .contact{
         grid-column: 1/2;
         grid-row: 2/3;
+
+        ul{
+            display: flex;
+            flex-direction: column;
+            list-style: none;
+            padding: 0;
+            gap: 0.5rem;
+
+            i{
+                padding-right: 0.5rem;
+            }
+        }
     }
 
-    .three{
+    .shortcuts{
         grid-column: 2/3;
         grid-row: 2/3;
+
+        ul{
+            display: flex;
+            flex-direction: column;
+            list-style: none;
+            padding: 0;
+            gap: 0.5rem;
+        }
     }
 
-    .four{
+    .some{
         grid-column: 1/3;
         grid-row: 3/4;
     }
@@ -320,9 +341,8 @@ klassen hidden + ps-abs for å ikke synes eller gi margin*/
 .pos-abs{
     position: absolute;
 }
-.tester-prdukt{
+.product-flex{
     display: flex;
-    border: 1px solid black;
     flex-wrap: wrap;
     padding: 1rem;
 }
@@ -423,11 +443,24 @@ klassen hidden + ps-abs for å ikke synes eller gi margin*/
 }
 
 
+#favorite:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 9px;
+    padding-left: 9px;
+
+    .fa-heart{
+        color: red;
+    }
+}
 
 
-
-
-
+aside{
+    padding: 1rem;
+}
 
 
 
@@ -435,7 +468,7 @@ aside .scroll .product-card{
     padding: 1rem;
 
     img{
-        width: 250px;
+        width: 200px;
         gap: 1rem;
         
 }
