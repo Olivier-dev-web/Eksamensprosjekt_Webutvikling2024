@@ -338,7 +338,7 @@ footer{
 }
 
 #breadcrumbs a:hover{
-    color: rgb(0, 87, 149);
+    color: rgb(149, 0, 0);
 }
 
 #breadcrumbs li:last-child a{
