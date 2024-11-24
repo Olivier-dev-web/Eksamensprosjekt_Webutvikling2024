@@ -380,6 +380,29 @@ klassen hidden + ps-abs for å ikke synes eller gi margin*/
     }
 }
 
+.display-block{
+    display: block;
+}
+
+.block-marg-top{
+    display: block;
+    margin-top: 1rem;
+}
+
+#size{
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.marg-top{
+    margin-top: 1rem;
+}
+
+.width-pad{
+    width: 80%;
+    margin-top: 1rem;
+    padding: 0.5rem;
+}
 
 
 
