@@ -318,7 +318,7 @@ footer{
 
 
 
-/*--------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------*/
 
 /*Her kommer stilsetting av produktsiden*/
 
@@ -491,6 +491,15 @@ aside .scroll .product-card{
         gap: 1rem;
         
 }
+
+
+/*-------------------------------------------------------------------------------*/
+
+/*Her kommer stilsetting av checkout siden*/
+
+
+/*Starter med stilsetting av listen i nav øverst i main. Her har jeg gjenbrukt
+stilsettingen i navet på produktsiden*/
 
 
 

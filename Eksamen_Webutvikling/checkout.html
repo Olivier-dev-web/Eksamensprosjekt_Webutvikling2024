@@ -12,20 +12,21 @@
     <title>Eksamen | Kasse</title>
 </head>
 <body>
-    <header>
-        <nav>
+    <header id="global-header">
+        <nav class="flex-nav">
             <form>
-                <label for="search">Søk</label>
+                <label for="search" class="hidden">Søk</label>
                 <input type="search" placeholder="Søk her" id="search">
-                <input type="submit" value="søk">
                 <i class="fa-solid fa-magnifying-glass" title="søk"></i>
             </form>
-            <ul>
-                <li><a href="#">Hjem</a></li>
-                <li><a href="#">Produkt</a></li>
-                <li><h1><a href="#">Logo</a></h1></li>
-                <li><a href="#"></a>Kategori</li>
-                <li><a href="#"></a>Kontakt oss</li>
+            <ul class="list-style nav-text-center">
+                <li class="space-between"><a href="#">Hjem</a></li>
+                <li class="space-between"><a href="#">Produkt</a></li>
+                <li class="space-between"><h1><a href="#">Logo</a></h1></li>
+                <li class="space-between"><a href="#"></a>Kategori</li>
+                <li class="space-between"><a href="#"></a>Kontakt oss</li>
+            </ul>
+            <ul class="list-style listitem-center">
                 <li><i class="fa-regular fa-user" title="Profil"></i></li>
                 <li><i class="fa-regular fa-heart" title="Favoritt"></i></li>
                 <li><a href="#"><i class="fa-solid fa-cart-shopping" title="Handlevogn"></i></a></li>
@@ -33,9 +34,9 @@
         </nav>
     </header>
     <main>
-        <nav>
-            <ul>
-                <li><a href="#">Fortsett å handle</a></li>
+        <nav id="breadcrum-nav">
+            <ul id="breadcrumbs">
+                <li><a href="#"><i class="fa-solid fa-arrow-left"></i> Fortsett å handle</a></li>
             </ul>
         </nav>
         <h2>Kasse</h2>
