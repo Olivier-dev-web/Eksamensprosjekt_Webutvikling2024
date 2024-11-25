@@ -515,9 +515,28 @@ stilsettingen i navet på produktsiden*/
     flex-direction: column;
     border: 2px solid rgb(180, 148, 148);
     align-items: center;
+
+    article ul{
+        display: flex;
+        list-style: none;
+        padding: 0;
+        gap: 1rem;
+
+        li form{
+            display: flex;
+            gap: 0.2rem;
+        }
+    }
     
 }
 
+#sizes{
+    width: 50%;
+}
+
+#quantity{
+    width:25%
+}
 
 
 
