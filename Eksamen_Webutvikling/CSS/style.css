@@ -324,18 +324,25 @@ footer{
 
 /*stilsetter brødsmulenavigasjonen*/
 
-#breadcrumbs{
-    display: flex;
-    list-style: none;
-    gap: 1rem;
-    font-size: 1.3rem;
+#breadcrum-nav{
+    padding: 1rem;
+
+    #breadcrumbs{
+        display: flex;
+        list-style: none;
+        gap: 1rem;
+        font-size: 1.3rem;
+        padding: 0;
+        
+        a{
+            text-decoration: none;
+            color: black;
+        }
     
-    a{
-        text-decoration: none;
-        color: black;
     }
 
 }
+
 
 #breadcrumbs a:hover{
     color: rgb(149, 0, 0);
@@ -401,11 +408,12 @@ klassen hidden + ps-abs for å ikke synes eller gi margin*/
     border-top: 2px solid black;
     margin-top: 2rem;
     margin-bottom: 1rem;
-    padding-top: 1rem;
+    padding-top: 0.5rem;
 
     summary{
-        gap: 7rem;
         display: flex;
+        justify-content: space-between;
+        padding: 1rem;
     }
 }
 
@@ -465,6 +473,8 @@ klassen hidden + ps-abs for å ikke synes eller gi margin*/
         color: red;
     }
 }
+
+
 
 
 aside{
