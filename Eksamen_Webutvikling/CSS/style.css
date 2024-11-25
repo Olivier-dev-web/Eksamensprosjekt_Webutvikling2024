@@ -491,7 +491,7 @@ aside .scroll .product-card{
         gap: 1rem;
         
 }
-
+}
 
 /*-------------------------------------------------------------------------------*/
 
@@ -501,7 +501,22 @@ aside .scroll .product-card{
 /*Starter med stilsetting av listen i nav øverst i main. Her har jeg gjenbrukt
 stilsettingen i navet på produktsiden*/
 
+/*Stilsetting av shoppingbaggen*/
 
+#checkout{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    /*Headingen for en margin på venstresiden lines opp med resten av siden*/
+}
+
+#shoppingbag{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(180, 148, 148);
+    align-items: center;
+    
+}
 
 
 
