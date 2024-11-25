@@ -70,11 +70,63 @@
                     <li><i class="fa-solid fa-trash"></i></li>
                 </ul>
             </article>
+            <article>
+                <img src="img/Roller_skates.jpg" alt="roller skates">
+                <h2> Produktnavn</h2>
+                <p>Pris: 4 199 kr</p>
+                <p> Farge: beige</p>
+                <ul>
+                    <li>
+                        <form>
+                            <label for="sizes">Størrelse</label>
+                            <select id="sizes" name="størrelser">
+                                <option value="XS">XS</option>
+                                <option value="S">S</option>
+                                <option value="M">M</option>
+                                <option value="L">L</option>
+                                <option value="XL">XL</option>
+                            </select>
+                            <label for="quantity">Antall</label>
+                            <input type="number" id="quantity">
+                        </form>
+                    </li>
+                </ul>
+                <ul>
+                    <li><i class="fa-regular fa-heart" title="favorite"></i></li>
+                    <li><i class="fa-solid fa-trash"></i></li>
+                </ul>
+            </article>
+            <article>
+                <img src="img/Roller_skates.jpg" alt="roller skates">
+                <h2> Produktnavn</h2>
+                <p>Pris: 4 199 kr</p>
+                <p> Farge: beige</p>
+                <ul>
+                    <li>
+                        <form>
+                            <label for="sizes">Størrelse</label>
+                            <select id="sizes" name="størrelser">
+                                <option value="XS">XS</option>
+                                <option value="S">S</option>
+                                <option value="M">M</option>
+                                <option value="L">L</option>
+                                <option value="XL">XL</option>
+                            </select>
+                            <label for="quantity">Antall</label>
+                            <input type="number" id="quantity">
+                        </form>
+                    </li>
+                </ul>
+                <ul>
+                    <li><i class="fa-regular fa-heart" title="favorite"></i></li>
+                    <li><i class="fa-solid fa-trash"></i></li>
+                </ul>
+            </article>
         </section>
-        <section id="info">
+        <section id="personal-info">
             <h2>2. DINE OPPLYSNINGER</h2>
             <h3>Leveringsadresse</h3>
-            <form>
+            <form id="personal">
                 <Label>
                     Fornavn
                     <input type="text" pattern="[A-Za-zæøåÆØÅ ]{2,}" required placeholder="Fornavn*">
@@ -97,7 +149,7 @@
                 </Label>
             </form>
             <h3>Kontaktinformasjon</h3>
-            <form>
+            <form id="contact-info">
                 <label>
                     E-post
                     <input type="email" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" required placeholder="eksempel@hiof.no*">
