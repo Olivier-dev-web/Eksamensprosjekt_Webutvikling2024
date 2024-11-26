@@ -192,7 +192,9 @@ img {
     margin: 0.5rem;
     background-image: url(../img/fashionItem.jpg);
     background-size: cover;
+    opacity: 0.7;
 }
+
 
 .category_3{
     display: flex;
@@ -205,6 +207,7 @@ img {
     margin: 0.5rem;
     background-image: url(../img/fashionItem.jpg);
     background-size: cover;
+    opacity: 0.7;
 }
 
 
