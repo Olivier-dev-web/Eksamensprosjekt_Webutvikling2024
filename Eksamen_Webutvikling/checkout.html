@@ -209,18 +209,18 @@
             <form id="pay">
                 <h3>Å betale ink. mva.</h3>
                 <h4>1 199 kr</h4>
-                <label>
+                <label for="buy" id="confirm">
                     Du bekrefter herved at opplysningene og dokumentene du har oppgitt er korrekte og fullstendige. Leverandøren forbeholder seg retten til å heve eller avslutte avtaleforholdet dersom det foreligger uriktige eller ufullstendige opplysninger.
-                    <input type="submit" value="Fullfør kjøp">
+                    <input type="submit" value="Fullfør kjøp" id="buy">
                 </label>
                 <h4>det lange greia</h4>
-                <label>
+                <label for="newsletter" class="notification">
                     Ja, takk! Send nyhetsbrev til meg.
-                    <input type="checkbox">
+                    <input type="checkbox" id="newsletter">
                 </label>
-                <label>
+                <label for="sms" class="notification">
                     Jeg ønsker å motta tekstmeldinger med tilbud og nyheter
-                    <input type="checkbox">
+                    <input type="checkbox" id="sms">
                 </label>
             </form>
         </section>

@@ -635,6 +635,8 @@ fieldset{
     padding-left: 1rem;
     padding-right: 1rem;
     gap: 2rem;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
 
 }
 
@@ -656,6 +658,45 @@ fieldset{
 
 }
 
+#pay{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-top: 2px solid rgb(233, 233, 237);
+
+    #confirm{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 1rem;
+    }
+
+    #buy{
+        width: 100%;
+        background-color: rgba(34, 33, 31, 0.8);
+        color: rgb(255, 255, 255);
+        font-size: large;
+        padding: 0.5rem;
+        font-weight: bold;
+        border: none;
+    }
+
+    .notification{
+        display: flex;
+        flex-direction: row-reverse;
+        text-align: center;
+        justify-content: center;
+        align-items: baseline;
+    }
+
+    /*#newsletter, #sms{
+        display: flex;
+        flex-direction: row-reverse;
+        text-align: center;
+        justify-content: center;
+        align-items: baseline;
+
+    }*/
+}
 
 
 
