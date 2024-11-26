@@ -388,8 +388,9 @@ klassen hidden + ps-abs for å ikke synes eller gi margin*/
 
 #grid-product-img{
     display: grid;
-    grid-template-columns: 1fr 3fr ;
-    grid-template-rows: auto auto ;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 1rem;
 
     .bilde1{
         grid-column: 1/2;
@@ -413,15 +414,15 @@ klassen hidden + ps-abs for å ikke synes eller gi margin*/
     }
 
     .bilde4{
-        grid-column: 2/3;
-        grid-row: 1/4;
+        grid-column: 1/2;
+        grid-row: 4/5;
         width: 100%;
         border-radius: 0px;
     }
 
     #product-info{
-        grid-column: 1/3;
-        grid-row: 4/5;
+        grid-column: 1/2;
+        grid-row: 5/6;
     }
 }
 
