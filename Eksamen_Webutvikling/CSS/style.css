@@ -311,6 +311,11 @@ footer{
             list-style: none;
             padding: 0;
             gap: 0.5rem;
+
+            li a{
+                text-decoration: none;
+                color: rgb(0, 0, 0);
+            }
         }
     }
 
@@ -324,6 +329,11 @@ footer{
             font-size: 1.2rem;
             padding: 0;
             gap: 1rem;
+
+            li a{
+                text-decoration: none;
+                color: rgb(0, 0, 0);
+            }
 
         }
     }
