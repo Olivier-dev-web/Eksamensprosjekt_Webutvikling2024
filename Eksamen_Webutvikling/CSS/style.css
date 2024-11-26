@@ -189,7 +189,7 @@ img {
 
 .category{
     display: flex;
-    border: 1px solid black;
+    border-radius: 25px;
     padding: 5rem;
     padding-left: 8rem;
     padding-right: 8rem;
@@ -197,12 +197,13 @@ img {
     background-image: url(../img/fashionItem.jpg);
     background-size: cover;
     opacity: 0.7;
+
 }
 
 
 .category_3{
     display: flex;
-    border: 1px solid black;
+    border-radius: 25px;
     padding: 5rem;
     padding-left: 8rem;
     padding-right: 8rem;
