@@ -170,7 +170,7 @@ img {
 
 /*Her kommer stilsettingen til seksjonen "Våre mest populære kategorier*/
 
-.cat-tile{
+#cat-tile{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -689,7 +689,7 @@ fieldset{
         justify-content: center;
         align-items: baseline;
     }
-    
+
 }
 
 
