@@ -608,12 +608,45 @@ stilsettingen i navet på produktsiden*/
     padding-right: 1rem;
 }
 
+/*Må se på fieldset på nytt!! Kan ikke ha H og p tag i label...*/
 fieldset{
     display: flex;
     flex-direction: column;
     border: none;
-    gap: 3rem;
+    gap: 2rem;
+
+    label{
+        border: 2px solid rgb(233, 233, 237);
+        padding: 0.5rem;
+    }
+
+    input{
+        float: left;
+    }
 }
+
+
+
+
+#payment{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(233, 233, 237);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    gap: 2rem;
+
+}
+
+
+
+
+
+
+
+
+
+
 
 /*
 @media only screen and (min-width: 780px) {
