@@ -191,8 +191,8 @@
         </section>
         <section id="payment">
             <h2>4. Betaling</h2>
-            <h3>BETAL MED KORT</h3>
-            <form>
+            <h3>BETAL MED KORT <i class="fa-solid fa-credit-card"></i></h3>
+            <form id="payment-card">
                 <label>
                     Kortnummer
                     <input type="number" placeholder="123456*****88999" inputmode="numeric" required>
@@ -203,10 +203,12 @@
                 </label>
                 <label>
                     CVC/CVV
-                    <input type="password" inputmode="numeric" required>
+                    <input type="password" inputmode="numeric" required placeholder="CVC/CVV">
                 </label>
+            </form>
+            <form id="pay">
                 <h3>Å betale ink. mva.</h3>
-                <p><strong>1 199 kr</strong></p>
+                <h4>1 199 kr</h4>
                 <label>
                     Du bekrefter herved at opplysningene og dokumentene du har oppgitt er korrekte og fullstendige. Leverandøren forbeholder seg retten til å heve eller avslutte avtaleforholdet dersom det foreligger uriktige eller ufullstendige opplysninger.
                     <input type="submit" value="Fullfør kjøp">
