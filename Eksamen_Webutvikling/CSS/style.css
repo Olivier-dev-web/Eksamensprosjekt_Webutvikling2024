@@ -511,7 +511,9 @@ stilsettingen i navet på produktsiden*/
     display: flex;
     flex-direction: column;
     border: 2px solid rgb(233, 233, 237);
-    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    gap: 2rem;
 
     article ul{
         display: flex;
@@ -687,15 +689,7 @@ fieldset{
         justify-content: center;
         align-items: baseline;
     }
-
-    /*#newsletter, #sms{
-        display: flex;
-        flex-direction: row-reverse;
-        text-align: center;
-        justify-content: center;
-        align-items: baseline;
-
-    }*/
+    
 }
 
 
