@@ -19,30 +19,30 @@
             <form>
                 <label for="search" class="hidden">Søk</label>
                 <input type="search" placeholder="Søk her" id="search">
-                <i class="fa-solid fa-magnifying-glass" title="søk"></i>
+                <button type="submit"><i class="fa-solid fa-magnifying-glass" title="søk"></i></button>
             </form>
             <ul class="list-style nav-text-center">
-                <li class="space-between"><a href="#">Hjem</a></li>
-                <li class="space-between"><a href="#">Produkt</a></li>
-                <li class="space-between"><h1><a href="#">Logo</a></h1></li>
-                <li class="space-between"><a href="#"></a>Kategori</li>
-                <li class="space-between"><a href="#"></a>Kontakt oss</li>
+                <li class="space-between"><a href="index.html">Hjem</a></li>
+                <li class="space-between"><a href="#pop-items">Produkt</a></li>
+                <li class="space-between"><h1><a href="index.html">Logo</a></h1></li>
+                <li class="space-between"><a href="#cat-tile">Kategori</a></li>
+                <li class="space-between"><a href="#contactus">Kontakt oss</a></li>
             </ul>
             <ul class="list-style listitem-center">
                 <li><i class="fa-regular fa-user" title="Profil"></i></li>
                 <li><i class="fa-regular fa-heart" title="Favoritt"></i></li>
-                <li><a href="#"><i class="fa-solid fa-cart-shopping" title="Handlevogn"></i></a></li>
+                <li><a href="checkout.html"><i class="fa-solid fa-cart-shopping" title="Handlevogn"></i></a></li>
             </ul>
         </nav>
     </header>
     <main>
         <nav id="breadcrum-nav">
             <ul id="breadcrumbs">
-                <li><a href="#">Hjem</a></li>
+                <li><a href="index.html">Hjem</a></li>
                 <li><i class="fa-solid fa-chevron-right" title="arrow right"></i></li>
-                <li><a href="#">Kategori</a></li>
+                <li><a href="index.html#cat-tile">Kategori</a></li>
                 <li><i class="fa-solid fa-chevron-right" title="arrow right"></i></li>
-                <li><a href="#">Produktnavn</a></li>
+                <li><a href="product.html">Produktnavn</a></li>
             </ul>
         </nav>
         <section class="product-flex">
@@ -54,7 +54,7 @@
                 <img src="img/Roller_skates.jpg" alt="bilde 4" class="bilde4">
                 <article id="product-info">
                     <h2> Produktnavn</h2>
-                    <a href="#">MERKENAVN</a>
+                    <a href="product.html">MERKENAVN</a>
                     <p>Pris: 4 199 kr ink. mva</p>
                     <p> Farge: beige</p>
                     <details class="details-sum">
@@ -119,12 +119,12 @@
         </section>
         <aside>
             <h3>Lignende produkter</h3>
-            <p><a href="#">Se flere lignende produkter <i class="fa-solid fa-arrow-right-long" title="arrow right"></i></a></p>
+            <p><a href="product.html">Se flere lignende produkter <i class="fa-solid fa-arrow-right-long" title="arrow right"></i></a></p>
             <div class="scroll">
                 <article class="product-card">
                     <h3 class="hidden">Produktkort</h3>
                     <img src="img/travel.png" alt="Produktbilde">
-                    <p class="name-price"><a href="#">Produktnavn</a>  kr 299,99</p>
+                    <p class="name-price"><a href="product.html">Produktnavn</a>  kr 299,99</p>
                     <p>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
@@ -137,7 +137,7 @@
                 <article class="product-card">
                     <h3 class="hidden">Produktkort</h3>
                     <img src="img/travel.png" alt="Produktbilde">
-                    <p class="name-price"><a href="#">Produktnavn</a>  kr 299,99</p>
+                    <p class="name-price"><a href="product.html">Produktnavn</a>  kr 299,99</p>
                     <p>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
@@ -150,7 +150,7 @@
                 <article class="product-card">
                     <h3 class="hidden">Produktkort</h3>
                     <img src="img/travel.png" alt="Produktbilde">
-                    <p class="name-price"><a href="#">Produktnavn</a>  kr 299,99</p>
+                    <p class="name-price"><a href="product.html">Produktnavn</a>  kr 299,99</p>
                     <p>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
@@ -163,7 +163,7 @@
                 <article class="product-card">
                     <h3 class="hidden">Produktkort</h3>
                     <img src="img/travel.png" alt="Produktbilde">
-                    <p class="name-price"><a href="#">Produktnavn</a>  kr 299,99</p>
+                    <p class="name-price"><a href="product.html">Produktnavn</a>  kr 299,99</p>
                     <p>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
@@ -176,7 +176,7 @@
                 <article class="product-card">
                     <h3 class="hidden">Produktkort</h3>
                     <img src="img/travel.png" alt="Produktbilde">
-                    <p class="name-price"><a href="#">Produktnavn</a>  kr 299,99</p>
+                    <p class="name-price"><a href="product.html">Produktnavn</a>  kr 299,99</p>
                     <p>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
@@ -191,10 +191,10 @@
     </main>
     <footer>
         <section class="logo">
-            <h2>Logo</h2>
+            <h2><a href="index.html">Logo</a></h2>
             <p>Her kan jeg sette inn slagord eller info om virksomheten</p>
         </section>
-        <section class="contact">
+        <section class="contact" id="contactus">
             <h3>KONTAKT</h3>
             <ul>
                 <li><i class="fa-solid fa-location-dot" title="lokasjon"></i> <strong>Adresse: </strong>B R A Veien 4, 1757 Halden</li>
@@ -206,18 +206,18 @@
         <section class="shortcuts">
             <h3>SNARVEIER</h3>
             <ul>
-                <li>Produkter</li>
-                <li>Kategori</li>
-                <li>Kontakt oss</li>
+                <li><a href="index.html#pop-items">Produkter</a></li>
+                <li><a href="index.html#cat-tile">Kategori</a></li>
+                <li><a href="#contactus">Kontakt oss</a></li>
             </ul>
         </section>
         <section class="some">
             <h3>SOSIALE MEDIER</h3>
             <ul>
-                <li><i class="fa-brands fa-instagram" title="instagram"></i></li>
-                <li><i class="fa-brands fa-facebook" title="facebook"></i></li>
-                <li><i class="fa-brands fa-linkedin" title="linkedin"></i></li>
-                <li><i class="fa-brands fa-pinterest" title="pinterest"></i></li>
+                <li><a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram" title="instagram"></i></a></li>
+                <li><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook" title="facebook"></i></a></li>
+                <li><a href="https://www.linkedin.com/" target="_blank"></a><i class="fa-brands fa-linkedin" title="linkedin"></i></li>
+                <li><a href="https://no.pinterest.com/" target="_blank"><i class="fa-brands fa-pinterest" title="pinterest"></i></a></li>
             </ul>
         </section>
     </footer>
