@@ -528,14 +528,14 @@ stilsettingen i navet på produktsiden*/
     
 }
 
-#sizes{
+.size-opt{
     width: 15%;
     border: none;
     padding: 0.5rem;
 
 }
 
-#quantity{
+.quant{
     width:15%;
     border: 2px solid rgb(233, 233, 237);
     padding: 0.5rem;
@@ -592,7 +592,7 @@ stilsettingen i navet på produktsiden*/
     #save-btn{
         width: 100%;
         background-color: rgba(34, 33, 31, 0.8);
-        color: white;
+        color: rgb(255, 255, 255);
         font-size: large;
         padding: 0.5rem;
         font-weight: bold;
@@ -600,7 +600,20 @@ stilsettingen i navet på produktsiden*/
 }
 
 
+#delivery-opt{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(233, 233, 237);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
 
+fieldset{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    gap: 3rem;
+}
 
 /*
 @media only screen and (min-width: 780px) {

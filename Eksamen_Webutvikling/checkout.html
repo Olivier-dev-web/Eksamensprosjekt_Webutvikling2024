@@ -53,7 +53,7 @@
                     <li>
                         <form>
                             <label for="sizes">Størrelse</label>
-                            <select id="sizes" name="størrelser">
+                            <select id="sizes" name="størrelser" class="size-opt">
                                 <option value="XS">XS</option>
                                 <option value="S">S</option>
                                 <option value="M">M</option>
@@ -61,7 +61,7 @@
                                 <option value="XL">XL</option>
                             </select>
                             <label for="quantity">Antall</label>
-                            <input type="number" id="quantity">
+                            <input type="number" id="quantity" class="quant">
                         </form>
                     </li>
                 </ul>
@@ -78,16 +78,16 @@
                 <ul>
                     <li>
                         <form>
-                            <label for="sizes">Størrelse</label>
-                            <select id="sizes" name="størrelser">
+                            <label for="size2">Størrelse</label>
+                            <select id="size2" name="størrelser" class="size-opt">
                                 <option value="XS">XS</option>
                                 <option value="S">S</option>
                                 <option value="M">M</option>
                                 <option value="L">L</option>
                                 <option value="XL">XL</option>
                             </select>
-                            <label for="quantity">Antall</label>
-                            <input type="number" id="quantity">
+                            <label for="quantity2">Antall</label>
+                            <input type="number" id="quantity2" class="quant">
                         </form>
                     </li>
                 </ul>
@@ -104,16 +104,16 @@
                 <ul>
                     <li>
                         <form>
-                            <label for="sizes">Størrelse</label>
-                            <select id="sizes" name="størrelser">
+                            <label for="size3">Størrelse</label>
+                            <select id="size3" name="størrelser" class="size-opt">
                                 <option value="XS">XS</option>
                                 <option value="S">S</option>
                                 <option value="M">M</option>
                                 <option value="L">L</option>
                                 <option value="XL">XL</option>
                             </select>
-                            <label for="quantity">Antall</label>
-                            <input type="number" id="quantity">
+                            <label for="quantity3">Antall</label>
+                            <input type="number" id="quantity3" class="quant">
                         </form>
                     </li>
                 </ul>
@@ -167,12 +167,10 @@
             <h3>LEVERINGSVALG</h3>
             <form>
                 <fieldset>
+                    <label>Ekspress Hjemlevering
+                        <input type="radio" name="delivery" value="express home"></label>
                     <label>
-                        Ekxpress Hjemlevering
-                        <input type="radio" name="delivery" value="express home">
-                    </label>
-                    <label>
-                        Ekxpress Pakke til utleveringssted
+                        Ekspress Pakke til utleveringssted
                         <input type="radio" name="delivery" value="express drop-off point">
                     </label>
                     <label>
@@ -188,15 +186,15 @@
             <form>
                 <label>
                     Kortnummer
-                    <input type="number" placeholder="123456*****88999" inputmode="numeric" pattern="[0-9\s]{13,19}" maxlength="19" autocomplete="cc-number" required>
+                    <input type="number" placeholder="123456*****88999" inputmode="numeric" required>
                 </label>
                 <label>
                     Utløpsdato
-                    <input type="date" max="31-12-24" required>
+                    <input type="date"  required>
                 </label>
                 <label>
                     CVC/CVV
-                    <input type="password" max="3" inputmode="numeric" required>
+                    <input type="password" inputmode="numeric" required>
                 </label>
                 <h3>Å betale ink. mva.</h3>
                 <p><strong>1 199 kr</strong></p>
