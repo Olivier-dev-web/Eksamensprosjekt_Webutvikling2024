@@ -47,6 +47,10 @@ body{
     padding: 0;
 }
 
+.listitem-center li a:hover .fa-cart-shopping{
+    transform: scale(1.5);
+}
+
 /*Sentrerer listitem i senter*/
 .nav-text-center{
     display: flex;
