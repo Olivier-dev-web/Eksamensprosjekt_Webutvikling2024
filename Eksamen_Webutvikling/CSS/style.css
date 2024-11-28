@@ -677,6 +677,11 @@ stilsettingen i navet på produktsiden*/
     padding-right: 1rem;
     gap: 2rem;
 
+    article img{
+        width: 100%;
+        max-width: 450px;
+    }
+
     article ul{
         display: flex;
         list-style: none;
